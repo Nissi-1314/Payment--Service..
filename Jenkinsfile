@@ -6,7 +6,7 @@ pipeline {
 
         maven 'maven'
 
-        jdk 'jdk-11'
+        jdk 'jdk-17'
 
     }
 
@@ -58,7 +58,7 @@ pipeline {
 
             steps {
 
-                git branch: 'main', credentialsId: 'github_credential', url: 'https://github.com/sunithabidugu/Payment-Service.git'
+                git branch: 'main', credentialsId: 'github_credential', url: 'https://github.com/Nissi-1314/Payment--Service...git'
 
             }
 
